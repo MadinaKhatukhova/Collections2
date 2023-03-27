@@ -3,12 +3,10 @@ import java.util.Objects;
 
 public class Mechanic {
     static HashMap<String, String> Mechanic;
-
-    public Mechanic() {
-        this.Mechanic = new HashMap<>();
-    }
-    public static void addMechanic(String name, String number){
-        Objects.requireNonNull(Mechanic).put(name,number);
+       public Mechanic() {
+        this.Mechanic = new HashMap<>();}
+    public static void addMechanic(String kay, String meaning){
+        Objects.requireNonNull(Mechanic).put(kay,meaning);
     }
 
     @Override

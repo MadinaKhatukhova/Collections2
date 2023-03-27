@@ -1,8 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-import java.util.Random;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,29 +9,28 @@ public class Main {
         getEvenNumbers(integerSet, integerList);
         System.out.println("Оставшиеся четные числа из рандомных: " + integerList);
 
-        Mechanic Mechanic = new Mechanic();
-        Mechanic.addMechanic ("Артур Иванов","Kia");
-        Mechanic.addMechanic("Петр Сидоров","Nissan");
-        Mechanic.addMechanic("Николай Соболев","Honda");
-        Mechanic.addMechanic("Арсен Арзуманян","Audi");
-        Mechanic.addMechanic("Эдуард Суровый","Ford");
-        Mechanic.addMechanic("Максим Кожевников","Mercedes-Benz");
-        Mechanic.addMechanic("Юрий Сергеев","Skoda");
-        Mechanic.addMechanic("Егор Июльский","Volkswagen");
-        Mechanic.addMechanic("Ренат Майский","Mazda");
-        Mechanic.addMechanic("Юрий Савичев","Toyota");
-        Mechanic.addMechanic("Сергей Леонидович","Acura");
-        Mechanic.addMechanic("Иван Герасимов","Infiniti");
-        Mechanic.addMechanic("Альберт Эдуардович","Lexus");
-        Mechanic.addMechanic("Олег Валентинович","Subaru");
-        Mechanic.addMechanic("Игорь Сергеевич","Chevrolet");
-        Mechanic.addMechanic("Евгений Виссарионович","Dodge");
-        Mechanic.addMechanic("Никита Покров","Jeep");
-        Mechanic.addMechanic("Юрий Могучий","Pontiac");
-        Mechanic.addMechanic("Евгений Васильевич","Cadillac");
-        Mechanic.addMechanic("Леонид Петрович","Tesla");
+        Mechanic mechanic = new Mechanic();
+        Mechanic.addMechanic("Kia","Артур Иванов");
+        Mechanic.addMechanic("Nissan","Петр Сидоров");
+        Mechanic.addMechanic("Honda","Николай Соболев");
+        Mechanic.addMechanic("Audi","Арсен Арзуманян");
+        Mechanic.addMechanic("Ford","Эдуард Суровый");
+        Mechanic.addMechanic("Mercedes-Benz","Максим Кожевников");
+        Mechanic.addMechanic("Volkswagen","Егор Июльский");
+        Mechanic.addMechanic("Mazda","Ренат Майский");
+        Mechanic.addMechanic("Toyota","Юрий Савичев");
+        Mechanic.addMechanic("Acura","Сергей Леонидович");
+        Mechanic.addMechanic("Infiniti","Иван Герасимов");
+        Mechanic.addMechanic("Lexus","Альберт Эдуардович");
+        Mechanic.addMechanic("Subaru","Олег Валентинович");
+        Mechanic.addMechanic("Chevrolet","Игорь Сергеевич");
+        Mechanic.addMechanic("Dodge","Евгений Виссарионович");
+        Mechanic.addMechanic("Jeep","Никита Покров");
+        Mechanic.addMechanic("Pontiac","Юрий Могучий");
+        Mechanic.addMechanic("Cadillac","Евгений Васильевич");
+        Mechanic.addMechanic("Tesla","Леонид Петрович");
 
-        System.out.println(Mechanic);
+        System.out.println(mechanic);
 
         CollectionMapStringInteger collectionMapStringInteger= new CollectionMapStringInteger();
         collectionMapStringInteger.addMap("Str1", 2);
